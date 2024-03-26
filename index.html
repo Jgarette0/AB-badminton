@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="title" content="Badminton Training Camp" />
+  <meta name="description" content="A badminton training camp in Pandacan, Pinamungajan, Cebu." />
+  <meta name="author" content="Jilian Garette" />
+  <meta name="keywords" content="pinamungajan, pinamungajan badminton, badminton, abbadminton" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:title" content="Badminton Training Camp" />
+  <meta property="og:description" content="A badminton training camp in Pandacan, Pinamungajan, Cebu." />
+  <meta property="og:image" content="img/banner.jpg" />
+  <meta property="og:url" content="https://badminton.vercel.app" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:site_name" content="Badminton Training Camp" />
+  <meta name="twitter:card" content="sBadminton Training Camp" />
+  <meta name="twitter:description" content="A badminton training camp in Pandacan, Pinamungajan, Cebu." />
+  <meta name="twitter:image" content="/logo.png" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#030712" />
+  <link rel="apple-touch-icon" href="img/logo.png" />
+  <link rel="icon" type="image/svg+xml" href="img/logo.png" />
+  <title>Badminton Training Camp</title>
+  <link rel="stylesheet" href="styles/global.css" />
+  <link href="styles.css" rel="stylesheet" />
+</head>
+<body class="bg-white overflow-x-hidden">
+  <style>
+    @import url('styles/fonts.css');
+  </style>
+    <!-- header ni --> 
+  <header id="top" class="w-full flex flex-col md:relative pin-t pin-r pin-l bg-white">
+    <nav id="site-menu" class="flex flex-col md:flex-row w-full justify-between items-center px-4 md:px-6 py-1 md:shadow-none border-t-4">
+      <div class="w-full md:w-auto self-start md:self-center flex flex-row md:flex-none flex-no-wrap justify-between place-items-center">
+        <div>
+          <a href="#" class="logoni no-underline py-1"><h1 class="font-bold text-xl tracking-widest select-none p-1 rounded-full transition-rotate duration-500 ease-in-out hover:rotate-12"><img class="h-16 w-16" src="img/logo.png" alt=""></h1></a>
+        </div>
+        <div id="menuBtn" class="hamburger block md:hidden focus:outline-none  border-box" type="button" onclick="navToggle();">
+         <div class="flex flex-col place-items-center justify-center h-12 ">
+          <div class="hamburger__top-bun"></div><div class="hamburger__bottom-bun"></div>
+         </div>
+        </div>
+      </div>
+      <div id="menu" class="w-full md:w-auto self-end md:self-center md:flex flex-col md:flex-row items-center h-full py-1 pb-4 md:py-0 md:pb-0 hidden">
+        <div class="flex flex-col justify-center place-items-center md:flex-row md:pt-0  md:gap-4 h-h-125 md:h-8 "  >  
+          <div class="transition-transform duration-500 ease-in-out hover:scale-110">
+          <a href="" class="w-full no-underline md:w-auto md:px-4 py-2 md:py-1 md:pt-2 tracking-wider text-6xl md:text-md md:text-plant  md:text-xl text-gold font-dahlia hover:text-gold select-none">HOME</a>
+        </div>       
+        <div class="transition-transform duration-500 ease-in-out hover:scale-110">
+          <a href="src/.html" class="w-full no-underline md:w-auto md:px-4 py-2 md:py-1 md:pt-2 tracking-wider text-6xl md:text-md md:text-plant  md:text-xl text-gold font-dahlia hover:text-gold select-none">ABOUT</a>
+        </div>   
+        <div class="transition-transform duration-500 ease-in-out hover:scale-110">
+          <a href="src/gallery.html" class="w-full no-underline md:w-auto md:px-4 py-2 md:py-1 md:pt-2 tracking-wider text-6xl md:text-md md:text-plant  md:text-xl text-gold font-dahlia hover:text-gold select-none">GALLERY</a>
+        </div>           
+        <div class="transition-transform duration-500 ease-in-out hover:scale-110">
+          <a href="src/instructor.html" class="w-full no-underline md:w-auto md:px-4 py-2 md:py-1 md:pt-2 tracking-wider text-6xl md:text-md md:text-plant  md:text-xl text-gold font-dahlia hover:text-gold select-none">INSTRUCTOR</a>
+        </div>   
+        <div class="transition-transform duration-500 ease-in-out transform hover:scale-110">
+          <a href="src/signin.html" class="w-full no-underline md:w-auto md:px-4 py-2 md:py-1 md:pt-2 tracking-wider text-6xl md:text-md md:text-gold  md:text-xl text-plant font-dahlia hover:text-plant select-none ">SIGN IN</a>
+        </div>   
+      <div>
+        </div>
+      </div>
+    </nav>
+  </header>
+    <!-- header ni -->
+    <!-- first content -->
+  <main class="content h-screen bg-white w-full px-2 flex flex-col place-items-center justify-center">
+    <div class="content h-screen bg-white w-1k px-2 flex flex-col place-items-center justify-start">
+    <div class="w-full h-24 md:h-48  flex flex-col place-items-center justify-end">
+      <a href="src/gallery.html">
+        <div class="-none rounded-full w-3.1h md:w-4h bg-lightgold transition-colors duration-300 ease-in-out hover:bg-gold text-plant text-center py-4 leading-none md:py-4 px-8 md:px-2 text-md md:text-xl font-serif font-semibold opacity-80 select-none">
+          Over 90 students are already excelling!
+        </div>
+      </a>
+    </div>
+    <div class="w-screen md:w-full h-titlesm md:h-title text-plant  font-dahlia text-6.5xl md:text-7xl text-center px-2 flex flex-col place-items-center justify-center leading-none">
+      AB BADMINTON TRAINING CAMP 
+      <span class="md:hidden text-2xl">-where champions are made-</span>
+    </div>
+
+    <div class=" w-full h-20  font-poppins text-bold flex flex-col place-items-center text-sm md:text-3xl justify-center"> Discover the passion and skill that drive our players.</div>
+    <div class="w-full h-36  flex flex-col place-items-center justify-end"><a href="signin.html"><button class="w-36  h-16 md:w-52  md:h-20  text-center md:text-xl bg-plant text-white font-bold font-poppins rounded-full hover:bg-plantito ">Get started</button></a></div>
+    </div> 
+  </main>
+      <!-- first content -->
+  <main class="content w-full h-screen bg-gold"></main>
+  <main class="content w-full h-screen bg-plant"></main>  
+  <script src="js/index.js"></script>
+</body>
+</html>

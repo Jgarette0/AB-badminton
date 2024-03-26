@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <title>CD.com | Sign In</title>
+    <style>
+         nav {
+          width: 100%;
+          height: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 10px 20px;
+          border-bottom: 4px solid black;
+        }
+    
+        .flex-1 {
+          flex: 1;
+        }
+    
+        .text-center {
+          text-align: center;
+        }
+        
+    
+        /* Media queries for responsive behavior */
+        @media screen and (max-width: 768px) {
+          nav {
+            display: flex;
+            padding-left: 20px;
+            padding-right: 20px;
+          }
+    
+          
+    
+       
+          .mt-36{
+            margin-top: 70px;
+          }
+          .img1{
+            width: 24px;
+            
+          }
+          a{
+            font-size: 14px;
+          }
+          h1{
+            font-size: 40px;
+          }
+          h2{
+            font-size: 30px;
+          }
+        }
+    </style>
+</head>
+<body class="bg-custom-gray">
+
+    <nav class="w-full h-20  flex px-20 text-center items-center justify-center border-b-4 border-b-black">
+        <div class="flex">
+            <a href="../index.html"><img src="images/coding.png" class="img1 w-12 cursor-pointer"></a>
+        </div>
+        <ul class="flex-1  gap-10 flex justify-center text-center font-medium text-lg font-poppins">
+            <a class="text-custom-black" href="../index.html">Home</a>
+            <a class="text-custom-black " href="about.html">About</a>
+        </ul>
+        <button class="menu-btn" id="menuBtn"> <i class="fas fa-bars"></i>  </button>
+        <div class=" justify-end gap-10  text-lg text-bk font-poppins font-medium">
+            <a class="" href="register.html">Sign up</a>
+            <a class=" border-2 rounded-md text-custom-gray border-black bg-black p-2" href="login.html">Sign in</a>
+        </div>
+    </nav>
+
+        <div class="mt-20 flex justify-center font-poppins">
+            <div class="h-h-100 w-w-100 border-4 border-black rounded-md">
+                <form action="">
+                    <div class="text-center my-20">
+                       <h1 class="font-semibold text-3xl">Sign In</h1>
+                    </div>
+                    <div class="flex justify-center my-10">
+                        <div class="">
+                            <label class="block" for="email">Email</label>
+                            <input class="bg-custom-gray border-2 border-black rounded-md py-2 w-72" type="email" name="email" placeholder="eg@gmail.com">
+                        </div>
+                    </div>
+                    <div class="flex justify-center mt-10">
+                        <div class="">
+                            <label class="block" for="password">Password</label>
+                            <input class="py-2 w-72 bg-custom-gray border-2 border-black rounded-md" type="password" name="password" placeholder="eg@gmail.com">
+                            <div class="text-end">
+                                <a class="text-sm font-thin hover:underline" href="">Forgot password?</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center my-5 ">
+                        <button class="p-2 w-72 rounded-md bg-black text-custom-gray">Sign In</button>
+                    </div>
+                    <div class="text-center">
+                        <h6>Don't have account? <a class="cursor-pointer font-semibold hover:underline" href="register.html">Sign Up</a></h6>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    
+</body>
+</html>
