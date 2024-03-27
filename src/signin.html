@@ -1,109 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
-    <title>CD.com | Sign In</title>
-    <style>
-         nav {
-          width: 100%;
-          height: 20px;
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          padding: 10px 20px;
-          border-bottom: 4px solid black;
-        }
-    
-        .flex-1 {
-          flex: 1;
-        }
-    
-        .text-center {
-          text-align: center;
-        }
-        
-    
-        /* Media queries for responsive behavior */
-        @media screen and (max-width: 768px) {
-          nav {
-            display: flex;
-            padding-left: 20px;
-            padding-right: 20px;
-          }
-    
-          
-    
-       
-          .mt-36{
-            margin-top: 70px;
-          }
-          .img1{
-            width: 24px;
-            
-          }
-          a{
-            font-size: 14px;
-          }
-          h1{
-            font-size: 40px;
-          }
-          h2{
-            font-size: 30px;
-          }
-        }
-    </style>
-</head>
-<body class="bg-custom-gray">
-
-    <nav class="w-full h-20  flex px-20 text-center items-center justify-center border-b-4 border-b-black">
-        <div class="flex">
-            <a href="../index.html"><img src="images/coding.png" class="img1 w-12 cursor-pointer"></a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sign up</title>
+  </head>
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="stylesheet" href="../styles/global.css" />
+  <body class="bg-white overflow-x-hidden h-screen w-screen flex flex-row">
+    <div class="w-full flex flex-col place-items-end justify-center">
+      <div class="w-wow h-28 flex flex-col justify-end">
+        <a href="../index.html">
+          <svg
+            class="hover:opacity-50"
+            xmlns="http://www.w3.org/2000/svg"
+            width="150"
+            height="150"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#212121"
+            stroke-width="0.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-move-left"
+          >
+            <path d="M6 8L2 12L6 16" />
+            <path d="M2 12H22" />
+          </svg>
+        </a>
+      </div>
+      <div class="w-wow h-28 flex flex-col justify-center">
+        <span class="text-3xl font-bold font-poppins"
+          >Sign in to AB Badminton</span
+        >
+      </div>
+      <div class="w-wow h-32 flex flex-col justify-center">
+        <a href="signin.html">
+          <button
+            class="w-64 h-16 md:w-wow md:h-20 text-center md:text-xl border bg-white border-plant text-plant font-bold font-poppins rounded-full transition-colors duration-300 ease-in-out hover:bg-gray-50 flex flex-row place-items-center justify-center gap-4"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="30"
+              height="30"
+              viewBox="0 0 48 48"
+            >
+              <path
+                fill="#FFC107"
+                d="M43.611,20.083H42V20H24v8h11.303c-1.649,4.657-6.08,8-11.303,8c-6.627,0-12-5.373-12-12c0-6.627,5.373-12,12-12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C12.955,4,4,12.955,4,24c0,11.045,8.955,20,20,20c11.045,0,20-8.955,20-20C44,22.659,43.862,21.35,43.611,20.083z"
+              ></path>
+              <path
+                fill="#FF3D00"
+                d="M6.306,14.691l6.571,4.819C14.655,15.108,18.961,12,24,12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C16.318,4,9.656,8.337,6.306,14.691z"
+              ></path>
+              <path
+                fill="#4CAF50"
+                d="M24,44c5.166,0,9.86-1.977,13.409-5.192l-6.19-5.238C29.211,35.091,26.715,36,24,36c-5.202,0-9.619-3.317-11.283-7.946l-6.522,5.025C9.505,39.556,16.227,44,24,44z"
+              ></path>
+              <path
+                fill="#1976D2"
+                d="M43.611,20.083H42V20H24v8h11.303c-0.792,2.237-2.231,4.166-4.087,5.571c0.001-0.001,0.002-0.001,0.003-0.002l6.19,5.238C36.971,39.205,44,34,44,24C44,22.659,43.862,21.35,43.611,20.083z"
+              ></path>
+            </svg>
+            <span> Sign in with google</span>
+          </button>
+        </a>
+      </div>
+      <div
+        class="w-wow h-4 flex flex-row gap-1 place-items-center justify-center"
+      >
+        <div class="border border-t-gray-300 mt-2 w-64"></div>
+        <div>or</div>
+        <div class="border border-t-gray-300 mt-2 w-64"></div>
+      </div>
+      <div
+        class="w-wow h-64 flex flex-col gap-2 mt-12 place-items-center justify-center"
+      >
+        <div class="w-wow">
+          <label
+            for="username"
+            class="block text-gray-700 font-bold font-poppins text-xl"
+            >Username</label
+          >
+          <input
+            id="username"
+            name="username"
+            type="text"
+            placeholder="Enter your username"
+            class="px-3 py-2 border focus:outline-none focus:border-plant w-64 h-16 md:w-wow rounded-xl md:h-20 md:text-xl"
+          />
         </div>
-        <ul class="flex-1  gap-10 flex justify-center text-center font-medium text-lg font-poppins">
-            <a class="text-custom-black" href="../index.html">Home</a>
-            <a class="text-custom-black " href="about.html">About</a>
-        </ul>
-        <button class="menu-btn" id="menuBtn"> <i class="fas fa-bars"></i>  </button>
-        <div class=" justify-end gap-10  text-lg text-bk font-poppins font-medium">
-            <a class="" href="register.html">Sign up</a>
-            <a class=" border-2 rounded-md text-custom-gray border-black bg-black p-2" href="login.html">Sign in</a>
+        <div class="w-wow">
+          <label
+            for="password"
+            class="block text-gray-700 font-bold font-poppins text-xl"
+            >Password</label
+          >
+          <input
+            id="password"
+            name="password"
+            type="password"
+            placeholder="Enter your password"
+            class="px-3 py-2 border focus:outline-none focus:border-plant w-64 h-16 md:w-wow rounded-xl md:h-20 md:text-xl"
+          />
         </div>
-    </nav>
-
-        <div class="mt-20 flex justify-center font-poppins">
-            <div class="h-h-100 w-w-100 border-4 border-black rounded-md">
-                <form action="">
-                    <div class="text-center my-20">
-                       <h1 class="font-semibold text-3xl">Sign In</h1>
-                    </div>
-                    <div class="flex justify-center my-10">
-                        <div class="">
-                            <label class="block" for="email">Email</label>
-                            <input class="bg-custom-gray border-2 border-black rounded-md py-2 w-72" type="email" name="email" placeholder="eg@gmail.com">
-                        </div>
-                    </div>
-                    <div class="flex justify-center mt-10">
-                        <div class="">
-                            <label class="block" for="password">Password</label>
-                            <input class="py-2 w-72 bg-custom-gray border-2 border-black rounded-md" type="password" name="password" placeholder="eg@gmail.com">
-                            <div class="text-end">
-                                <a class="text-sm font-thin hover:underline" href="">Forgot password?</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text-center my-5 ">
-                        <button class="p-2 w-72 rounded-md bg-black text-custom-gray">Sign In</button>
-                    </div>
-                    <div class="text-center">
-                        <h6>Don't have account? <a class="cursor-pointer font-semibold hover:underline" href="register.html">Sign Up</a></h6>
-                    </div>
-                    
-                </form>
-            </div>
+        <div class="w-wow h-32 flex flex-col justify-center mt-4">
+          <a href="../index.html">
+            <button
+              class="w-64 h-16 md:w-wow md:h-20 text-center md:text-xl bg-plant font-bold font-poppins rounded-full transition-colors duration-300 ease-in-out lex flex-row place-items-center justify-center gap-4 text-white hover:bg-slate-600"
+            >
+              <span> Sign In</span>
+            </button>
+          </a>
         </div>
-    
-</body>
+      </div>
+      <div
+        class="w-wow h-20 flex flex-row mt-4 gap-2 place-items-center justify-center text-md"
+      >
+        <span> Don't have an account?</span>
+        <a href="signup.html"><span class="underline">Sign up</span></a>
+      </div>
+    </div>
+    <div class="w-48"></div>
+    <div class="hidden md:block h-screen w-3/5">
+      <img
+        src="../img/giphy.gif"
+        class="object-cover h-full rounded-l-full"
+        alt=""
+      />
+    </div>
+  </body>
 </html>

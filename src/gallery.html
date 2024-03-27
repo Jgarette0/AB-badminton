@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link href="../styles.css" rel="stylesheet" />
+ <link href="../styles/global.css" rel="stylesheet" />
+</head>
+<body class="bg-plant overflow-x-hidden">
+ <style>
+   @import url('../styles/fonts.css');
+ </style>
+   <!-- header ni --> 
+ <header id="top" class="w-full flex flex-col md:relative pin-t pin-r pin-l bg-plant">
+   <nav id="site-menu" class="flex flex-col md:flex-row w-full justify-between items-center px-4 md:px-6 py-1 md:shadow-none border-t-4">
+     <div class="w-full md:w-auto self-start md:self-center flex flex-row md:flex-none flex-no-wrap justify-between place-items-center">
+       <div>
+         <a href="#" class="logoni no-underline py-1"><h1 class="font-bold text-xl tracking-widest select-none p-1 rounded-full transition-rotate duration-500 ease-in-out hover:rotate-12"><img class="h-16 w-16" src="../img/logo.png" alt=""></h1></a>
+       </div>
+       <div id="menuBtn" class="hamburger block md:hidden focus:outline-none  border-box" type="button" onclick="navToggle();">
+        <div class="flex flex-col place-items-center justify-center h-12 ">
+         <div class="hamburger__top-bun"></div><div class="hamburger__bottom-bun"></div>
+        </div>
+       </div>
+     </div>
+     <div id="menu" class="w-full md:w-auto self-end md:self-center md:flex flex-col md:flex-row items-center h-full py-1 pb-4 md:py-0 md:pb-0 hidden">
+       <div class="flex flex-col justify-center place-items-center md:flex-row md:pt-0  md:gap-4 h-h-125 md:h-8 "  >  
+         <div class="transition-transform duration-500 ease-in-out hover:scale-110">
+         <a href="../index.html" class="w-full no-underline md:w-auto md:px-4 py-2 md:py-1 md:pt-2 tracking-wider text-6xl md:text-md md:text-white  md:text-xl text-gold font-dahlia hover:text-gold select-none">HOME</a>
+       </div>       
+       <div class="transition-transform duration-500 ease-in-out hover:scale-110">
+         <a href="about.html" class="w-full no-underline md:w-auto md:px-4 py-2 md:py-1 md:pt-2 tracking-wider text-6xl md:text-md md:text-white  md:text-xl text-gold font-dahlia hover:text-gold select-none">ABOUT</a>
+       </div>   
+       <div class="transition-transform duration-500 ease-in-out hover:scale-110">
+         <a href="gallery.html" class="w-full no-underline md:w-auto md:px-4 py-2 md:py-1 md:pt-2 tracking-wider text-6xl md:text-md md:text-gold  md:text-xl text-gold font-dahlia hover:text-white select-none">GALLERY</a>
+       </div>           
+       <div class="transition-transform duration-500 ease-in-out hover:scale-110">
+         <a href="instructor.html" class="w-full no-underline md:w-auto md:px-4 py-2 md:py-1 md:pt-2 tracking-wider text-6xl md:text-md md:text-white  md:text-xl text-gold font-dahlia hover:text-gold select-none">INSTRUCTOR</a>
+       </div>   
+       <div class="transition-transform duration-500 ease-in-out transform hover:scale-110">
+         <a href="signin.html" class="w-full no-underline md:w-auto md:px-4 py-2 md:py-1 md:pt-2 tracking-wider text-6xl md:text-md md:text-white  md:text-xl text-gold font-dahlia hover:text-gold select-none ">SIGN IN</a>
+       </div>   
+     <div>
+       </div>
+     </div>
+   </nav>
+ </header>
+  <!-- Text content -->
+  <main class="content h-full bg-plant w-full px-2 flex flex-col place-items-center justify-start">
+   <div class="content h-full bg-plant w-1k px-2 flex flex-col place-items-center justify-start">
+     <div class="w-screen md:w-full h-48 justify-end md:h-titlesm  text-white  font-dahlia text-6.5xl 
+     md:text-6.8xl text-center px-2 flex flex-col place-items-center md:justify-center leading-none">
+      DISCOVER OUR TOP BADMINTON MOMENTS
+       <!-- <span class="md:hidden text-2xl">-where champions are made-</span> -->
+     </div>
+     <div class=" w-screen px-4 h-20 font-poppins text-bold flex flex-col place-items-center text-sm  md:text-lg justify-center text-center md:px-8 text-white">
+      Explore the best of badminton, from tournament matches to dedicated training sessions. <span class="hidden md:block text-gold">
+       Our gallery showcases the passion and skill of badminton players in town.
+      </span></div>
+   </div> 
+ </main>
+
+ <!-- image gallery content -->
+ <section class="container mx-auto px-4 py-8">
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+
+   <div class="space-y-2 cursor-pointer">
+    <img
+      alt="Badminton"
+      class="picture w-full h-auto object-cover sm:max-w-full sm:max-h-full rounded-xl transition-transform duration-300 ease-in-out transform hover:scale-105"
+loading="lazy"
+      height="200"
+      src="../img/01.jpg"
+    />
+    <!-- <div class="flex items-center justify-between">
+      <span>Oli Lisher</span>
+      <div class="flex items-center space-x-1">
+        <span>149</span>
+        <span>7.7k</span>
+      </div>
+     </div>    -->
+   </div>
+   <div class="space-y-2">
+     <img
+       alt="Badminton"
+       class="picture w-full h-auto object-cover sm:max-w-full sm:max-h-full rounded-xl transition-transform duration-300 ease-in-out transform hover:scale-105"
+loading="lazy"
+       height="200"
+       src="../img/03.jpg"
+     />
+   </div>
+   <div class="space-y-2">
+    <img
+      alt="Badminton"
+      class="picture w-full h-auto object-cover sm:max-w-full sm:max-h-full rounded-xl transition-transform duration-300 ease-in-out transform hover:scale-105"
+loading="lazy"
+      height="200"
+      src="../img/07.jpg"
+    />
+   </div>
+   <div class="space-y-2">
+    <img
+      alt="Badminton"
+      class="picture w-full h-auto object-cover sm:max-w-full sm:max-h-full rounded-xl transition-transform duration-300 ease-in-out transform hover:scale-105"
+loading="lazy"
+      height="200"
+      src="../img/08.jpg"
+    />
+   </div>
+   <div class="space-y-2">
+    <img
+      alt="Badminton"
+      class="picture w-full h-auto object-cover sm:max-w-full sm:max-h-full rounded-xl transition-transform duration-300 ease-in-out transform hover:scale-105"
+loading="lazy"
+      height="200"
+      src="../img/09.jpg"
+    />
+   </div>
+   <div class="space-y-2">
+    <img
+      alt="Badminton"
+      class="picture w-full h-auto object-cover sm:max-w-full sm:max-h-full rounded-xl transition-transform duration-300 ease-in-out transform hover:scale-105"
+loading="lazy"
+      height="200"
+      src="../img/c1.jpg"
+    />
+   </div>
+   <div class="space-y-2">
+    <img
+      alt="Badminton"
+      class="picture w-full h-auto object-cover sm:max-w-full sm:max-h-full rounded-xl transition-transform duration-300 ease-in-out transform hover:scale-105"
+loading="lazy"
+      height="200"
+      src="../img/c2.jpg"
+    />
+   </div>
+   <div class="space-y-2">
+    <img
+      alt="Badminton"
+      class="picture w-full h-auto object-cover sm:max-w-full sm:max-h-full rounded-xl transition-transform duration-300 ease-in-out transform hover:scale-105"
+loading="lazy"
+      height="200"
+      src="../img/c3.jpg"
+    />
+   </div>
+   <div class="space-y-2">
+    <img
+      alt="Badminton"
+      class="picture w-full h-auto object-cover sm:max-w-full sm:max-h-full rounded-xl transition-transform duration-300 ease-in-out transform hover:scale-105"
+loading="lazy"
+      height="200"
+      src="../img/04.jpg"
+    />
+   </div>
+   <div class="space-y-2">
+    <img
+      alt="Badminton"
+      class="picture w-full h-auto object-cover sm:max-w-full sm:max-h-full rounded-xl transition-transform duration-300 ease-in-out transform hover:scale-105"
+loading="lazy"
+      height="200"
+      src="../img/06.jpg"
+    />
+   </div>
+   <div class="space-y-2">
+    <img
+      alt="Badminton"
+      class="picture w-full h-auto object-cover sm:max-w-full sm:max-h-full rounded-xl transition-transform duration-300 ease-in-out transform hover:scale-105"
+loading="lazy"
+      height="200"
+      src="../img/tr3.jpg"
+    />
+   </div>
+   <div class="space-y-2">
+    <img
+      alt="Badminton"
+      class="picture w-full h-auto object-cover sm:max-w-full sm:max-h-full rounded-xl transition-transform duration-300 ease-in-out transform hover:scale-105"
+loading="lazy"
+      height="200"
+      src="../img/tr2.jpg"
+    />
+   </div>
+   <div class="space-y-2">
+    <img
+      alt="Badminton"
+      class="picture w-full h-auto object-cover sm:max-w-full sm:max-h-full rounded-xl transition-transform duration-300 ease-in-out transform hover:scale-105"
+loading="lazy"
+      height="200"
+      src="../img/t1.jpg"
+    />
+   </div>
+   <div class="space-y-2">
+    <img
+      alt="Badminton"
+      class="picture w-full h-auto object-cover sm:max-w-full sm:max-h-full rounded-xl transition-transform duration-300 ease-in-out transform hover:scale-105"
+loading="lazy"
+      height="200"
+      src="../img/t2.jpg"
+    />
+   </div>
+   <div class="space-y-2">
+    <img
+      alt="Badminton"
+      class="picture w-full h-auto object-cover sm:max-w-full sm:max-h-full rounded-xl transition-transform duration-300 ease-in-out transform hover:scale-105"
+loading="lazy"
+      height="200"
+      src="../img/t3.jpg"
+    />
+   </div>
+   <div class="space-y-2">
+    <img
+      alt="Badminton"
+      class="picture w-full h-auto object-cover sm:max-w-full sm:max-h-full rounded-xl transition-transform duration-300 ease-in-out transform hover:scale-105"
+loading="lazy"
+      height="200"
+      src="../img/t4.jpg"
+    />
+   </div>
+ </section>
+ <footer class="text-yellow-700 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap md:text-left text-center -mb-10 -mx-4">
+      <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">PAGES</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a href="index.html" class="text-white hover:underline hover:text-white">Home</a>
+          </li>
+          <li>
+            <a href="src/about.html" class="text-white hover:underline hover:text-white">About</a>
+          </li>
+          <li>
+            <a href="src/gallery.html" class="text-white hover:underline hover:text-white">Gallery</a>
+          </li>
+          <li>
+            <a href="src/instructor.html" class="text-white hover:underline hover:text-white">Instructor</a>
+          </li>
+        </nav>
+      </div>
+      <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">SOCIALS</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a href="https://web.facebook.com/profile.php?id=61557379647439" target="_blank" class="text-white hover:underline hover:text-white">Facebook</a>
+          </li>
+          <li>
+            <a href="https://web.facebook.com/profile.php?id=61557379647439" target="_blank" class="text-white hover:underline hover:text-white">Instagram</a>
+          </li>
+          <li>
+            <a href="https://web.facebook.com/profile.php?id=61557379647439" target="_blank" class="text-white hover:underline hover:text-white">Tiktok</a>
+          </li>
+          <li>
+            <a href="https://web.facebook.com/profile.php?id=61557379647439" target="_blank" class="text-white hover:underline hover:text-white">Twitter</a>
+          </li>
+        </nav>
+      </div>
+    
+      <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">MERCH</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a href="" class="text-white hover:underline hover:text-white">Jersey</a>
+          </li>
+          <li>
+            <a href="" class="text-white hover:underline hover:text-white">Racket</a>
+          </li>
+          <li>
+            <a href="" class="text-white hover:underline hover:text-white">Shuttlecocks</a>
+          </li>
+          <li>
+            <a href="" class="text-white hover:underline hover:text-white">Grip Tape</a>
+          </li>
+        </nav>
+      </div>
+      <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">BADMINTON</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a href="https://web.facebook.com/mitchandrox" target="_blank" class="text-white hover:underline hover:text-white">Coach</a>
+          </li>
+          <li>
+            <a href="https://web.facebook.com/profile.php?id=61557379647439" target="_blank" class="text-white hover:underline hover:text-white">Players</a>
+          </li>
+          <li>
+            <a href="" class="text-white hover:underline hover:text-white">Shop</a>
+          </li>
+          <li>
+            <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6231.732363034202!2d123.58666148425318!3d10.282078395995605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a96f9b97ad5239%3A0x587a7e7b0c947ed7!2sPinamungahan%20Badminton%20Court!5e0!3m2!1sen!2sph!4v1711533457772!5m2!1sen!2sph" class="text-white hover:underline hover:text-white" target="_blank">Place</a>
+          </li>
+        </nav>
+      </div>
+      <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">ACTIVITIES</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a href="" class="text-white hover:underline hover:text-white">Events</a>
+          </li>
+          <li>
+            <a href="" class="text-white hover:underline hover:text-white">Tournaments</a>
+          </li>
+          <li>
+            <a href="" class="text-white hover:underline hover:text-white">Competitions</a>
+          </li>
+          <li>
+            <a href="" class="text-white hover:underline hover:text-white">Exhibit Matches</a>
+          </li>
+        </nav>
+      </div>
+      <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">OTHERS</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a href="" class="text-white hover:underline hover:text-white">09-234532534</a>
+          </li>
+          <li>
+            <a href="" class="text-white hover:underline hover:text-white">Blog</a>
+          </li>
+          <li>
+            <a href="" class="text-white hover:underline hover:text-white">Testemonials</a>
+          </li>
+          <li>
+            <a href="" class="text-white hover:underline hover:text-white">FAQ</a>
+          </li>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="border-t border-yellow-200">
+    <div class="container px-5 py-8 flex flex-wrap mx-auto items-center">
+      <div class="flex md:flex-no-wrap flex-wrap justify-center md:justify-start">
+        <input class="sm:w-64 w-40 bg-yellow-100 rounded sm:mr-4 mr-2 border border-yellow-400 focus:outline-none focus:border-yellow-500 text-base py-2 px-4" placeholder="Placeholder" type="text">
+        <button class="inline-flex text-white bg-yellow-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded">Send</button>
+        <p class="text-yellow-500 text-sm md:ml-6 md:mt-0 mt-2 sm:text-left text-center">Please allow us some time to carefully review your message. 
+          <br class="lg:block hidden">We will get back to you shortly.
+        </p>
+      </div>
+      <span class="inline-flex lg:ml-auto lg:mt-0 mt-6 w-full justify-center md:justify-start md:w-auto">
+        <a href="https://web.facebook.com/mitchandrox" target="_blank" class="text-yellow-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+          </svg>
+        </a>
+        <a href="https://web.facebook.com/mitchandrox" target="_blank" class="ml-3 text-yellow-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+          </svg>
+        </a>
+        <a href="https://web.facebook.com/mitchandrox" target="_blank" class="ml-3 text-yellow-500">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+          </svg>
+        </a>
+        <a href="https://web.facebook.com/mitchandrox" target="_blank" class="ml-3 text-yellow-500">
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+          </svg>
+        </a>
+      </span>
+    </div>
+  </div>
+  <div class="bg-white">
+    <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+      <p class="text-plant text-sm text-center sm:text-left">© 2024 AB BADMINTON —
+        <a href="https://twitter.com/andro" class="text-plant ml-1" target="_blank" rel="noopener noreferrer">@Andew</a>
+      </p>
+      <span class="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-plant text-sm">Androx Gaming</span>
+    </div>
+  </div>
+</footer>
+ <script src="../js/index.js"></script>
+</body>
+</html>
