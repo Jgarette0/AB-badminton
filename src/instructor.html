@@ -7,16 +7,16 @@
  <link href="../styles.css" rel="stylesheet" />
  <link href="../styles/global.css" rel="stylesheet" />
 </head>
-<body class="bg-plant overflow-x-hidden">
+<body class="bg-gold overflow-x-hidden">
  <style>
    @import url('../styles/fonts.css');
  </style>
    <!-- header ni --> 
- <header id="top" class="w-full flex flex-col md:relative pin-t pin-r pin-l bg-white">
-   <nav id="site-menu" class="flex flex-col md:flex-row w-full justify-between items-center px-4 md:px-6 py-1 md:shadow-none border-t-4">
+ <header id="top" class="w-full flex flex-col md:relative pin-t pin-r pin-l bg-yellow-100">
+   <nav id="site-menu" class="flex flex-col md:flex-row w-full justify-between items-center px-4 md:px-6 py-1 md:shadow-none ">
      <div class="w-full md:w-auto self-start md:self-center flex flex-row md:flex-none flex-no-wrap justify-between place-items-center">
        <div>
-         <a href="#" class="logoni no-underline py-1"><h1 class="font-bold text-xl tracking-widest select-none p-1 rounded-full transition-rotate duration-500 ease-in-out hover:rotate-12"><img class="h-16 w-16" src="../img/logo.png" alt=""></h1></a>
+         <a href="#" class="logoni no-underline py-1"><h1 class="font-bold text-xl tracking-widest select-none p-1 rounded-full transition-rotate duration-500 ease-in-out hover:rotate-12 "><img class="h-16 w-16 " src="../img/logo.png" alt=""></h1></a>
        </div>
        <div id="menuBtn" class="hamburger block md:hidden focus:outline-none  border-box" type="button" onclick="navToggle();">
         <div class="flex flex-col place-items-center justify-center h-12 ">
@@ -30,13 +30,13 @@
          <a href="../index.html" class="w-full no-underline md:w-auto md:px-4 py-2 md:py-1 md:pt-2 tracking-wider text-6xl md:text-md md:text-plant  md:text-xl text-gold font-dahlia hover:text-gold select-none">HOME</a>
        </div>       
        <div class="transition-transform duration-500 ease-in-out hover:scale-110">
-         <a href="about.html" class="w-full no-underline md:w-auto md:px-4 py-2 md:py-1 md:pt-2 tracking-wider text-6xl md:text-md md:text-gold  md:text-xl text-plant font-dahlia hover:text-gold select-none">ABOUT</a>
+         <a href="about.html" class="w-full no-underline md:w-auto md:px-4 py-2 md:py-1 md:pt-2 tracking-wider text-6xl md:text-md md:text-plant  md:text-xl text-gold font-dahlia hover:text-gold select-none">ABOUT</a>
        </div>   
        <div class="transition-transform duration-500 ease-in-out hover:scale-110">
-         <a href="gallery.html" class="w-full no-underline md:w-auto md:px-4 py-2 md:py-1 md:pt-2 tracking-wider text-6xl md:text-md md:text-plant  md:text-xl text-gold font-dahlia hover:text-gold select-none">GALLERY</a>
+         <a href="gallery.html" class="w-full no-underline md:w-auto md:px-4 py-2 md:py-1 md:pt-2 tracking-wider text-6xl md:text-md md:text-gold  md:text-xl text-gold font-dahlia hover:text-gold select-none">GALLERY</a>
        </div>           
        <div class="transition-transform duration-500 ease-in-out hover:scale-110">
-         <a href="instructor.html" class="w-full no-underline md:w-auto md:px-4 py-2 md:py-1 md:pt-2 tracking-wider text-6xl md:text-md md:text-plant  md:text-xl text-gold font-dahlia hover:text-gold select-none">INSTRUCTOR</a>
+         <a href="instructor.html" class="w-full no-underline md:w-auto md:px-4 py-2 md:py-1 md:pt-2 tracking-wider text-6xl md:text-md md:text-plant  md:text-xl text-yellow-700 font-dahlia hover:text-gold select-none">INSTRUCTOR</a>
        </div>   
        <div class="transition-transform duration-500 ease-in-out transform hover:scale-110">
          <a href="signin.html" class="w-full no-underline md:w-auto md:px-4 py-2 md:py-1 md:pt-2 tracking-wider text-6xl md:text-md md:text-plant  md:text-xl text-gold font-dahlia hover:text-gold select-none ">SIGN IN</a>
@@ -47,34 +47,82 @@
    </nav>
  </header>
   <!-- Text content -->
-  <section class="content h-titlemd md:h-screen bg-white w-full px-2 flex flex-col place-items-center justify-center">
-    <div class="content h-screen bg-white w-1k px-2 flex flex-col place-items-center justify-start">
-      <div class="w-full h-24 md:h-48  flex flex-col place-items-center justify-end">
-          <div class="-none rounded-full bg-lightgold transition-colors duration-300 ease-in-out hover:bg-gold text-plant text-center py-4 leading-none md:py-4 w-36 md:px-2 text-md md:text-xl font-serif font-semibold opacity-80 select-none">
-            About Us
-          </div>
-      </div>
-      <div class="w-screen md:w-full h-titlesm md:h-title text-plant  font-dahlia text-6.5xl md:text-7xl text-center px-2 flex flex-col place-items-center justify-center leading-none">
-        ABOUT AB BADMINTON 
-      </div>
-      <div class="w-screen md:w-full px-2 md:h-20 flex flex-col place-items-center text-sm md:text-2xl font-poppins font-bold justify-center text-center">
-        AB Badminton Training Camp is where passion meets precision and dedication meets excellence. Through our programs, participants learn the values of discipline, mental fortitude, and teamwork. We focus on nurturing young talent in the sport of badminton.
+
+  <main class="text-gray-700 body-font border-t border-lightgold bg-white">
+   <div class="container px-5 py-24 mx-auto flex flex-wrap">
+     <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
+       <img alt="feature" class="object-cover object-center h-full w-full rounded-full bg-gold transition-colors duration-500 ease-in-out hover:bg-yellow-200" src="../img/coach.png">
+     </div>
+     <div class="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
+       <div class="flex flex-col mb-10 lg:items-start items-center">
+         <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-yellow-100 text-white mb-5">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#d4b34c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></svg>
+         </div>
+         <div class="flex-grow">
+           <h2 class="text-gray-900 text-lg title-font font-medium mb-3 font bold font-poppins">Head Coach</h2>
+           <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Mitch Andrew Tundag</h2>
+           <p class="leading-relaxed text-base">
+             Coach Andrew Mitch has over 8 years of badminton experience. As Head Coach, he focuses on developing players' skills, strategy, and mental toughness. With a strong belief in disciplined training and sportsmanship, Coach Andrew is dedicated to helping players excel both on and off the court.</p>
+           <a href="src/instructor.html" class="mt-3 text-white inline-flex items-center">Learn More
+             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+               <path d="M5 12h14M12 5l7 7-7 7"></path>
+             </svg>
+           </a>
+         </div>
+       </div>
+
+       <div class="flex flex-col mb-10 lg:items-start items-center">
+         <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-yellow-100 text-white mb-5">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#d4b34c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+         </div>
+         <div class="flex-grow">
+           <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Contact</h2>
+           <p class="leading-relaxed text-base">For coaching inquiries or to schedule a session with Coach Mitch Andrew, contact us at andrewmitch@gmail.com or 0921231454.</p>
+           <a href="src/instructor.html" class="mt-3 text-white inline-flex items-center">Learn More
+             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+               <path d="M5 12h14M12 5l7 7-7 7"></path>
+             </svg>
+           </a>
+         </div>
+       </div>
+       <div class="flex flex-col mb-10 lg:items-start items-center">
+         <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-yellow-100 text-white mb-5">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#d4b34c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+         </div>
+         <div class="flex-grow">
+           <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Address</h2>
+           <p class="leading-relaxed text-base">Pandacan, Pinamungajan, Cebu.</p>
+           <a href="src/instructor.html" class="mt-3 text-white inline-flex items-center">Learn More
+             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+               <path d="M5 12h14M12 5l7 7-7 7"></path>
+             </svg>
+           </a>
+         </div>
+       </div>
+     </div>
+   </div>
+ </main>
+
+
+ <main class="text-gray-700 body-font border-t border-lightgold bg-white">
+  <div class="container px-5 py-24 mx-auto flex flex-wrap">
+    <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
+      <img alt="feature" class="object-cover object-center h-full w-full rounded-full bg-yellow-200 transition-colors duration-500 ease-in-out hover:bg-gold" src="../img/gbadminton.png">
     </div>
-  </section>
-  <!-- <div class="h-32 bg-white"></div> -->
-<main class="bg-white flex flex-col justify-center place-items-center h-screen">
-
-    <div class="w-screen md:w-full h-titlesm md:h-title text-plant  font-dahlia text-6.5xl md:text-7xl text-center px-2 flex flex-col place-items-center justify-center leading-none">
-        ABOUT THE CREATOR
+    <div class="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
+      <div class="flex flex-col mb-10 lg:items-start items-center">
+        <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-yellow-100 text-white mb-5">
+          
+        </div>
+        <div class="w-4 h-4 inline-flex items-center justify-center rounded-full bg-yellow-100 text-white mb-5">
+          
+        </div>
       </div>
-      <div class="flex flex-col gap-8 md:flex-row justify-center place-items-center  w-1k">
-        <div class="w-wow flex flex-col place-items-center justify-center">
-             <img alt="feature" class="object-cover object-center h-64 w-64 bg-plant rounded-full" src="../img/coach.png">
-            </div>
-    <div class="flex flex-col w-screen px-2 justify-center place-items-center font-poppines text-xl md:w-wow text-justify"><span class="w-full font-dahlia text-2xl" >Hey there, I'm Mitch,</span> I love badminton. In my free time, I enjoy playing video games to relax. I often spend time with my family, friends, and the people around me.</div> </div>
 
-   
+    </div>
+  </div>
 </main>
+
 
  <!-- Footer  content -->
  <footer class="text-yellow-700 body-font">
@@ -188,30 +236,30 @@
   <div class="border-t border-yellow-200">
     <div class="container px-5 py-8 flex flex-wrap mx-auto items-center">
       <div class="flex md:flex-no-wrap flex-wrap justify-center md:justify-start">
-        <input class="sm:w-64 w-40 bg-yellow-100 rounded sm:mr-4 mr-2 border border-yellow-400 focus:outline-none focus:border-yellow-500 text-base py-2 px-4" placeholder="Message" type="text">
-        <button class="inline-flex text-white bg-yellow-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded">Send</button>
-        <p class="text-yellow-500 text-sm md:ml-6 md:mt-0 mt-2 sm:text-left text-center">Please allow us some time to carefully review your message. 
+        <input class="sm:w-64 w-40 bg-yellow-100 rounded sm:mr-4 mr-2 border border-yellow-400 focus:outline-none focus:border-white text-base py-2 px-4" placeholder="Messege" type="text">
+        <button class="inline-flex text-white bg-yellow-800 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded">Send</button>
+        <p class="text-white text-sm md:ml-6 md:mt-0 mt-2 sm:text-left text-center">Please allow us some time to carefully review your message. 
           <br class="lg:block hidden">We will get back to you shortly.
         </p>
       </div>
       <span class="inline-flex lg:ml-auto lg:mt-0 mt-6 w-full justify-center md:justify-start md:w-auto">
-        <a href="https://web.facebook.com/mitchandrox" target="_blank" class="text-yellow-500">
+        <a href="https://web.facebook.com/mitchandrox" target="_blank" class="text-white">
           <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
             <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
           </svg>
         </a>
-        <a href="https://web.facebook.com/mitchandrox" target="_blank" class="ml-3 text-yellow-500">
+        <a href="https://web.facebook.com/mitchandrox" target="_blank" class="ml-3 text-white">
           <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
             <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
           </svg>
         </a>
-        <a href="https://web.facebook.com/mitchandrox" target="_blank" class="ml-3 text-yellow-500">
+        <a href="https://web.facebook.com/mitchandrox" target="_blank" class="ml-3 text-white">
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
             <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
             <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
           </svg>
         </a>
-        <a href="https://web.facebook.com/mitchandrox" target="_blank" class="ml-3 text-yellow-500">
+        <a href="https://web.facebook.com/mitchandrox" target="_blank" class="ml-3 text-white">
           <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
             <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
             <circle cx="4" cy="4" r="2" stroke="none"></circle>

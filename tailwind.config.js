@@ -28,6 +28,7 @@ module.exports = {
       },
       height: {
         titlesm: "15rem",
+        titlemd: "27.5rem",
         title: "28rem",
         "h-100": "36rem",
         "h-150": "49rem",
@@ -39,6 +40,8 @@ module.exports = {
         "4h": "480px",
         "3.1h": "330px",
         wow: "600px",
+        wew: "500px",
+        90: "90%",
       },
     },
   },

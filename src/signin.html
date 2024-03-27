@@ -3,16 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>sign up</title>
+    <title>Sign in</title>
   </head>
   <link rel="stylesheet" href="../styles.css" />
   <link rel="stylesheet" href="../styles/global.css" />
   <body class="bg-white overflow-x-hidden h-screen w-screen flex flex-row">
-    <div class="w-full flex flex-col place-items-end justify-center">
-      <div class="w-wow h-28 flex flex-col justify-end">
+    <div
+      class="w-full flex flex-col place-items-start md:place-items-end justify-center"
+    >
+      <div class="w-wow h-16 md:28 flex flex-col justify-end">
         <a href="../index.html">
           <svg
-            class="hover:opacity-50"
+            class="hover:opacity-50 w-20 md:w-56 h-20 md:h-56"
             xmlns="http://www.w3.org/2000/svg"
             width="150"
             height="150"
@@ -29,15 +31,20 @@
           </svg>
         </a>
       </div>
-      <div class="w-wow h-28 flex flex-col justify-center">
-        <span class="text-3xl font-bold font-poppins"
+      <div class="w-wow h-16 md:h-28 flex flex-col justify-center px-4">
+        <span class="text-xl md:text-3xl font-bold font-poppins"
           >Sign in to AB Badminton</span
         >
       </div>
-      <div class="w-wow h-32 flex flex-col justify-center">
-        <a href="signin.html">
+      <div
+        class="w-screen md:w-wow h-20 md:h-32 flex flex-col justify-center place-items-center"
+      >
+        <a
+          href="signin.html"
+          class="flex flex-col justify-center place-items-center"
+        >
           <button
-            class="w-64 h-16 md:w-wow md:h-20 text-center md:text-xl border bg-white border-plant text-plant font-bold font-poppins rounded-full transition-colors duration-300 ease-in-out hover:bg-gray-50 flex flex-row place-items-center justify-center gap-4"
+            class="w-3.1h h-16 md:w-wow md:h-20 text-center md:text-xl bg-white border border-plant text-plant hover:bg-gray-50 font-bold font-poppins rounded-full transition-colors duration-300 ease-in-out flex flex-row place-items-center justify-center gap-4"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -69,14 +76,14 @@
         </a>
       </div>
       <div
-        class="w-wow h-4 flex flex-row gap-1 place-items-center justify-center"
+        class="w-screen md:w-wow h-4 flex flex-row gap-1 place-items-center justify-center"
       >
-        <div class="border border-t-gray-300 mt-2 w-64"></div>
+        <div class="border border-t-gray-300 mt-2 w-36 md:w-64"></div>
         <div>or</div>
-        <div class="border border-t-gray-300 mt-2 w-64"></div>
+        <div class="border border-t-gray-300 mt-2 w-36 md:w-64"></div>
       </div>
       <div
-        class="w-wow h-64 flex flex-col gap-2 mt-12 place-items-center justify-center"
+        class="w-wow h-64 flex flex-col gap-2 mt-4 md:mt-12 place-items-center justify-center mx-2 md:mx:0"
       >
         <div class="w-wow">
           <label
@@ -89,7 +96,7 @@
             name="username"
             type="text"
             placeholder="Enter your username"
-            class="px-3 py-2 border focus:outline-none focus:border-plant w-64 h-16 md:w-wow rounded-xl md:h-20 md:text-xl"
+            class="px-3 py-2 border focus:outline-none focus:border-plant w-3.1h h-16 md:w-wow rounded-xl md:h-20 md:text-xl"
           />
         </div>
         <div class="w-wow">
@@ -103,31 +110,31 @@
             name="password"
             type="password"
             placeholder="Enter your password"
-            class="px-3 py-2 border focus:outline-none focus:border-plant w-64 h-16 md:w-wow rounded-xl md:h-20 md:text-xl"
+            class="px-3 py-2 border focus:outline-none focus:border-plant w-3.1h h-16 md:w-wow rounded-xl md:h-20 md:text-xl"
           />
         </div>
         <div class="w-wow h-32 flex flex-col justify-center mt-4">
           <a href="../index.html">
             <button
-              class="w-64 h-16 md:w-wow md:h-20 text-center md:text-xl bg-plant font-bold font-poppins rounded-full transition-colors duration-300 ease-in-out lex flex-row place-items-center justify-center gap-4 text-white hover:bg-slate-600"
+              class="w-3.1h h-16 md:w-wow md:h-20 text-center md:text-xl bg-plant text-white font-bold font-poppins rounded-full transition-colors duration-300 ease-in-out hover:bg-gray-600 first-letter:flex flex-row place-items-center justify-center gap-4"
             >
-              <span> Sign In</span>
+              <span> Sign in</span>
             </button>
           </a>
         </div>
       </div>
       <div
-        class="w-wow h-20 flex flex-row mt-4 gap-2 place-items-center justify-center text-md"
+        class="w-screen md:w-wow h-20 flex-row mt-4 gap-2 place-items-start md:place-items-center justify-center text-md flex"
       >
         <span> Don't have an account?</span>
         <a href="signup.html"><span class="underline">Sign up</span></a>
       </div>
     </div>
-    <div class="w-48"></div>
+    <div class="w-48 hidden md:block"></div>
     <div class="hidden md:block h-screen w-3/5">
       <img
         src="../img/giphy.gif"
-        class="object-cover h-full rounded-l-full"
+        class="object-cover h-full rounded-full"
         alt=""
       />
     </div>
