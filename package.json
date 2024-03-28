@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx tailwindcss -i C:\\Users\\Justinne Marie\\codes\\badminton\\styles.css -o C:\\Users\\Justinne Marie\\codes\\badminton\\styles.css"
+    "build": " npx tailwindcss -i ./styles.css -o ./styles.css"
   },
   "keywords": [],
   "author": "",
